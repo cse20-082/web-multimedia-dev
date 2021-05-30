@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="lifestyle.html">Lifestyle</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to <br> New York <br>City</h1>
+            <p>Where dreams comes True</p>
+            <a href="https://youtu.be/SxB06AR0s7k" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+        
+    </script>
+    <!---------about-------------->
+    <section class="Course">
+        <h1>About Us</h1>
+        <p>what we can do for you</p>
+        <div class="row">
+            <div class="course-col">
+            <h3>History</h3>
+            <p>New York City traces its origins to a trading post founded 
+                on the southern tip of Manhattan Island by Dutch colonists
+                 in 1624. The settlement was named New Amsterdam (Dutch: Nieuw Amsterdam)
+                  in 1626 and was chartered as a city in 1653. The 
+                  city came under English control in 1664 and was renamed 
+                  New York after King Charles II of England granted the 
+                  lands to his brother, the Duke of York. The city 
+                  was regained by the Dutch in July 1673 and was renamed New
+                   Orange for one year and three months; the city has been
+                    continuously named New York since November 1674.New York 
+                    City was the capital of the United States from 1785 until 
+                    1790, and has been the largest U.S. city since 1790.
+                    The Statue of Liberty greeted millions of immigrants as 
+                    they came to the U.S. by ship in the late 19th and early 
+                    20th centuries, and is a symbol of the U.S. and its 
+                    ideals of liberty and peace. In the 21st century, New
+                     York has emerged as a global node of creativity, entrepreneurship,
+                      and environmental sustainability, and as a symbol of freedom and
+                       cultural diversity. In 2019, New York was voted the greatest
+                        city in the world per a survey of over 30,000
+                 people from 48 cities worldwide, citing its cultural diversity.[38]</p>
+            </div>
+            <div class="course-col">
+            <h2>Facts</h2>
+            <p>New York City, officially the City of New York,
+               historically New Amsterdam, the Mayor, Alderman,
+               and Commonality of the City of New York, and New
+               Orange, byname the Big Apple, city and port located
+               at the mouth of the Hudson River, southeastern New 
+               York state, northeastern U.S. It is the largest and
+                most influential American metropolis, encompassing 
+                Manhattan and Staten islands, the western sections 
+                of Long Island, and a small portion of the New York
+                 state mainland to the north of Manhattan.</p>
+            </div>
+            <div class="course-col">
+            <h3>Attractions</h3>
+            <p>The city of new york has nice and beautiful attraction places for 
+                tourist attraction. there places ly monuments,historical places, the subway,
+                and also musuems which all shows the rich history of the city with how the 
+                city has come these far to be what it is today with all the excusite and nice 
+                views that looks so apealling sites.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <!---call to action--->
+    <section class="cta">
+        <h1>Visit Our City For A Great Time</h1>
+        <a href="contact.html" class="hero-btn red-btn">Contact Us</a>
+    </section>
+   
+    <!------footer----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>check us out on our social media platforms</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+    </section>
+</body>
+</html>
